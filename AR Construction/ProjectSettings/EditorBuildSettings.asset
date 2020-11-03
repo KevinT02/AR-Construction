@@ -6,9 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/proto-tutorial.unity
+    path: Assets/Scenes/TutorialSelect.unity
     guid: cb4ffd7c73f84bf46a450676e3aa56c8
   - enabled: 1
     path: Assets/Scenes/TutorialVideo_1.unity
     guid: f9ff76fcd03adb04dae377e4c4dfbc6a
+  - enabled: 1
+    path: Assets/Scenes/OnSiteOffSite.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/OnSite_Warning.unity
+    guid: 0919f823a5b7f2e4da590685b7bbeca7
+  - enabled: 1
+    path: Assets/Scenes/OffSite_Warning.unity
+    guid: 9b9d1fc0098bd05459d7300639e8b4e9
   m_configObjects: {}
