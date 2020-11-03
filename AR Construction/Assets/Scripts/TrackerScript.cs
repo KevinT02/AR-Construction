@@ -8,6 +8,8 @@ using UnityEngine.EventSystems;
 public class TrackerScript : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     public VideoPlayer video;
+    public Button nxtbtn;
+
     Slider tracking;
     bool slide = false;
     // Start is called before the first frame update
@@ -35,5 +37,16 @@ public class TrackerScript : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         {
             tracking.value = (float)video.frame / (float)video.frameCount;
         }
+    }
+
+    public void nextbutton()
+    {
+        float nb = GetComponent<Slider>().value;
+        if (nb > 0.99)
+        {
+            nxtbtn.gameObject.SetActive(true);
+        }
+        else
+            nxtbtn.gameObject.SetActive(false);
     }
 }
