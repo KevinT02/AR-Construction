@@ -7,6 +7,9 @@ using UnityEngine.EventSystems;
 
 public class TrackerScript : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
+    public AudioSource audio;
+    public Slider audiovolume;
+    
     public VideoPlayer video;
     public Button nxtbtn;
 
@@ -48,5 +51,10 @@ public class TrackerScript : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         }
         else
             nxtbtn.gameObject.SetActive(false);
+    }
+
+    public void volume()
+    {
+        audio.volume = audiovolume.value;
     }
 }
