@@ -25,8 +25,4 @@ public class SceneSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
-    public void FrenchTutorialSelect()
-    {
-        SceneManager.LoadScene(6);
-    }
 }
