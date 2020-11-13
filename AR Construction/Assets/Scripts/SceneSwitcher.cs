@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
-   public void TutorialVideo1()
+    public void TutorialVideo1()
     {
         SceneManager.LoadScene(1);
     }
-   public void TutorialSelect()
+    public void TutorialSelect()
     {
         SceneManager.LoadScene(0);
     }
@@ -24,5 +24,9 @@ public class SceneSwitcher : MonoBehaviour
     public void OffSiteWarning()
     {
         SceneManager.LoadScene(4);
+    }
+    public void FrenchTutoralSelect()
+    {
+        SceneManager.LoadScene(6);
     }
 }
