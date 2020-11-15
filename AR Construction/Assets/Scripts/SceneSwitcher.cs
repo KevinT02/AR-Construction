@@ -29,4 +29,16 @@ public class SceneSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene(6);
     }
+    public void FrenchOnSiteOffSite()
+    {
+        SceneManager.LoadScene(7);
+    }
+    public void MainScreen()
+    {
+        SceneManager.LoadScene(8);
+    }
+    public void Setting()
+    {
+        SceneManager.LoadScene(9);
+    }
 }
