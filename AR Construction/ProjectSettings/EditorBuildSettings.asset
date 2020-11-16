@@ -28,7 +28,7 @@ EditorBuildSettings:
     guid: a659a0d164d817c4daed2cbfafd14872
   - enabled: 1
     path: Assets/Scenes/MainScreen.unity
-    guid: f20212e3a9b68d44db3f0257e370a944
+    guid: 3167024dacc1912489f483e7090a6546
   - enabled: 1
     path: Assets/Scenes/setting.unity
     guid: eb0c81ff0d7b2a0449349bf044fe5aef
