@@ -41,4 +41,8 @@ public class SceneSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene(8);
     }
+    public void TutorialVideo2()
+    {
+        SceneManager.LoadScene(9);
+    }
 }
