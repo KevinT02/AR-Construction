@@ -57,4 +57,12 @@ public class SceneSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene(12);
     }
+    public void FrenchTutorialVideo1()
+    {
+        SceneManager.LoadScene(13);
+    }
+    public void FrenchTutorialVideo2()
+    {
+        SceneManager.LoadScene(14);
+    }
 }
