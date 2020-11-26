@@ -53,4 +53,8 @@ public class SceneSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene(11);
     }
+    public void FrenchOffsiteWarning()
+    {
+        SceneManager.LoadScene(12);
+    }
 }
