@@ -45,4 +45,12 @@ public class SceneSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene(9);
     }
+    public void FrenchOnsiteWarning()
+    {
+        SceneManager.LoadScene(10);
+    }
+    public void FrenchMainScreen()
+    {
+        SceneManager.LoadScene(11);
+    }
 }
