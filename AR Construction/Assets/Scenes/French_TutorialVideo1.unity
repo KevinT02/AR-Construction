@@ -1923,7 +1923,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1086461048}
         m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
-        m_MethodName: FrenchMainScreen
+        m_MethodName: FrenchOnSiteOffSite
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
